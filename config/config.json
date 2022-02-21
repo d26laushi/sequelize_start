@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "elbrus_user",
+    "password": "123",
+    "database": "elbrus",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "SequelizeData"
+  },
+  "test": {
+    "username": "jora",
+    "password": "123",
+    "database": "party",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "elbrus_user",
+    "password": "123",
+    "database": "elbrus",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
